@@ -1,5 +1,5 @@
 Cel projektu: 
-Naszym celem jest zaprognozowanie całkowitej liczby zachorowań w Polsce na Covid-19 w dniach 20-26.04.2023 na podstawie historycznych danych (wybraliśmy dane do 13.04.2023).
+Naszym celem jest zaprognozowanie całkowitej liczby zachorowań w Polsce na Covid-19 w dniach 14-26.04.2023 na podstawie historycznych danych (wybraliśmy dane do 13.04.2023).
 
 metodologia:
 prognozujemy ilość zachorowań na bazie własnych spostrzeżeń. Zauważyliśmy, że funkcja zakażeń zachowuje się okresowo - liczba zachorowań rośnie jesienię i wiosną, a maleje latem oraz zimą. Chcemy zatem przenieść tempo zmian zachorowań z tego samego okresu z poprzedniego roku i odpowiednio je przeskalować do aktualnych danych. Dodatkowo prognozy dokonujemy dla każdego dnia osobno, tj. czwartki prognozujemy tylko na podstawie czwartków itd.
@@ -19,7 +19,8 @@ następnie dla kazdego dnia tygodnia:
 8)zakażenia od 14.04 do 26.04 są wypisane w ostatniej komórce
 
 Wnioski:
--Wielkanoc co była teraz trochę zaniży przewidywane zachorowania z poniedziałku i może wtorku<br>
+-Wielkanoc co była teraz trochę zaniży przewidywane zachorowania z poniedziałku i może wtorku,
+-Po porównaniu z danymi udostępnianymi na oficjalnych stronach rządowych możemy zauważyć, że błąd oszacowań to średnio 37%.
 
 Bibliografia:
 dane pobraliśmy ze strony:
