@@ -1,12 +1,12 @@
 Cel projektu: 
 Naszym celem jest zaprognozowanie całkowitej liczby zachorowań w Polsce na Covid-19 w dniach 14-26.04.2023 na podstawie historycznych danych (wybraliśmy dane do 13.04.2023).
 
-metodologia:
-prognozujemy ilość zachorowań na bazie własnych spostrzeżeń. Zauważyliśmy, że funkcja zakażeń zachowuje się okresowo - liczba zachorowań rośnie jesienię i wiosną, a maleje latem oraz zimą. Chcemy zatem przenieść tempo zmian zachorowań z tego samego okresu z poprzedniego roku i odpowiednio je przeskalować do aktualnych danych. Dodatkowo prognozy dokonujemy dla każdego dnia osobno, tj. czwartki prognozujemy tylko na podstawie czwartków itd.
+Metodologia:
+Prognozujemy ilość zachorowań na bazie własnych spostrzeżeń. Zauważyliśmy, że funkcja zakażeń zachowuje się okresowo - liczba zachorowań rośnie jesienię i wiosną, a maleje latem oraz zimą. Chcemy zatem przenieść tempo zmian zachorowań z tego samego okresu z poprzedniego roku i odpowiednio je przeskalować do aktualnych danych. Dodatkowo prognozy dokonujemy dla każdego dnia osobno, tj. czwartki prognozujemy tylko na podstawie czwartków itd.
+Program został napisany w języku Python.
 
 
-
-opis działania kodu:<br>
+opis działania kodu:
 1) wczytanie ogólnej liczby zakażeń do tablicy liczba_przypadkow
 2)podzielenie danych z tablicy liczba_przypadkow na poszczególne dni tygodnia
 następnie dla kazdego dnia tygodnia:
